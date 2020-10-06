@@ -16,7 +16,7 @@ Anleitung zu Einrichten von Direct Routing in Teams
 
 -	Für die Einrichtung wird die CSV Datei aus der ZIP Datei benötigt. Bitte passen Sie die Datei wie folgt an:
 
-Die CSV Datei hat zwei Spalten -> UPN und Phone
+Die CSV Datei hat zwei Spalten -> mail und Phone
 
 Als UPN muss die Mailadresse (Office 365 Nutzer) des Nutzer hinterlegt werden.
 
