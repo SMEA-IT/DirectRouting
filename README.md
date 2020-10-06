@@ -18,7 +18,7 @@ Anleitung zu Einrichten von Direct Routing in Teams
 
 Die CSV Datei hat zwei Spalten -> mail und Phone
 
-Als UPN muss die Mailadresse (Office 365 Nutzer) des Nutzer hinterlegt werden.
+Als Mail muss die Mailadresse (Office 365 Nutzer) des Nutzer hinterlegt werden.
 
 Als Phone muss die Telefonnummer im Format: tel:+49123456789 eingetragen werden.
 
