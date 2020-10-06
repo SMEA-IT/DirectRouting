@@ -53,6 +53,7 @@ catch
     Write-Host -ForegroundColor Red $_.Exception
 }
 
+# Voice Routing Policy den Usern zuweisen
 try 
 {
     foreach ($user in $teamscsvcontent) {
