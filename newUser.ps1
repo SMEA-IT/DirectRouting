@@ -2,14 +2,15 @@
 $voiceroutingpolicyname = "World"
 $pfadzurCSV = "C:\pfadzurcsv\TeamsUser.csv"
 
-# Import SkypeOnlineConnector Modul / Check ob SkypeOnlineConnector Modul installiert ist 
-if (Get-Module -ListAvailable -Name SkypeOnlineConnector)
+# Import Teams Modul
+if (Get-Module -ListAvailable -Name MicrosoftTeams)
 {
-    Import-Module SkypeOnlineConnector 
+    Import-Module MicrosoftTeams 
 }
 else
 { 
-    Write-Host "Please Download SkypeOnlineConnector Modul here: https://www.microsoft.com/en-us/download/details.aspx?id=39366 and start again"
+    Install-Module -Name MicrosoftTeams
+    Import-Module MicrosoftTeams
 
 }
 # Sitzung erstellen und verbinden
