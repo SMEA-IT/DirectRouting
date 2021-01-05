@@ -9,7 +9,7 @@ if (Get-Module -ListAvailable -Name MicrosoftTeams)
 }
 else
 { 
-    Install-Module -Name MicrosoftTeams
+    Install-Module -Name MicrosoftTeams -AllowClobber
     Import-Module MicrosoftTeams
 
 }
