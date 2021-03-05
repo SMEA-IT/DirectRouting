@@ -10,7 +10,6 @@ else
 
 }
 # Sitzung erstellen und verbinden
-$session = New-CsOnlineSession
-Import-PSSession $session -AllowClobber
+$session = Connect-MicrosoftTeams
 
 Get-CsOnlineUser | Select-Object SipProxyAddress, OnPremLineURI, InterpretedUserType, EnterpriseVoiceEnabled
