@@ -10,7 +10,6 @@ else
 
 }
 # Sitzung erstellen und verbinden
-$session = New-CsOnlineSession
-Import-PSSession $session -AllowClobber
+$session = Connect-MicrosoftTeams
 
 Get-CsTenant | Select-Object Domainurlmap 
