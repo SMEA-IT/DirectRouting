@@ -22,8 +22,7 @@ else
 
 }
 # Sitzung erstellen und verbinden
-$session = New-CsOnlineSession
-Import-PSSession $session -AllowClobber
+$session = Connect-MicrosoftTeams
 
 # CSV Datei einlesen
 $teamscsvcontent = Import-Csv -path $pfadzurCSV -Delimiter ";"
