@@ -26,13 +26,11 @@ Als Phone muss die Telefonnummer im Format: tel:+49123456789 eingetragen werden.
 Speichern Sie diese Datei Bitte im MS-DOS Format als CSV
 
  
--	Einrichtung SkypeOnlineConnector für Powershell
+-	Einrichtung Microsoft Teams für Powershell
 
-o	Powershell Modul herunterladen und installieren:
-https://www.microsoft.com/en-us/download/details.aspx?id=39366
-o	Starten Sie Powershell als Administrator und Importieren Sie das Modul mit 
+o	Powershell Modul installieren mir Install-Module -Name MicrosoftTeams -Force
 
-o	Import-Module SkypeOnlineConnector 
+o	Import-Module MicrosoftTeams 
 
 
 -	Domain einrichten (2 Domänen)
