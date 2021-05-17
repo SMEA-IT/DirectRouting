@@ -28,7 +28,7 @@ Speichern Sie diese Datei Bitte im MS-DOS Format als CSV
  
 -	Einrichtung Microsoft Teams für Powershell
 
-o	Powershell Modul installieren mir Install-Module -Name MicrosoftTeams -Force
+o	Powershell Modul installieren mir Install-Module -Name MicrosoftTeams -AllowClobber -RequiredVersion 2.0.0
 
 o	Import-Module MicrosoftTeams 
 
