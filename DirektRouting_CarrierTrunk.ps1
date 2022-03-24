@@ -1,8 +1,8 @@
 # Parameter
 #$pstnusageDE =  "DE national"
 $pstnusageInternational = "International"
-$voicerouteidentity1 = "SBC1 - HFO"
-$voicerouteidentity2 = "SBC2 - HFO"
+$voicerouteidentity1 = "SBC1 - Gamma"
+$voicerouteidentity2 = "SBC2 - Gamma"
 #$numberpatternDE = "^(\+49\d*)"
 $numberpatternInternational = "^(\+\d*)"
 $voiceroutingpolicyname = "World"
