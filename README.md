@@ -102,16 +102,6 @@ Einrichtung erfolgt für jede Domäne einzeln
 
 •	Jetzt wird die Domäne bei Microsoft aktiviert. Dieser Vorgang kann bis zu 60 Minuten dauern
 
-•	Geprüft werden kann die Aktivieren per Powershell mit folgenden Befehlen:
-
-o	$session = New-CsOnlineSession (Hier erfolgt die Eingabe von Benutzername und Passwort des Tenantadmins)
-
-o	Import-PSSession $session -AllowClobber
-
-o	Get-CsTenant | Select-Object Domainurlmap 
-
-o	In der dann folgenden Ausgabe muss die angelegte Domäne aufgelistet sein  
-
 o	Nach erfolgreicher Aktivierung kann die Lizenz dem Nutzer wieder entzogen werden
 
 o	Für den zweiten Nutzer wiederholen Sie Bitte die Schritte
@@ -147,7 +137,7 @@ Unter SipProxyAddress: sip:maxmustermann@smea-it.de
 
 Unter OnPremLineURI: tel:+49123456789
 
-Unter InterpretedUserType: PureOnlineSfBUser
+Unter InterpretedUserType sollte nichts mit "failed" oder ähnlichem stehen
 
 Unter EnterpriseVoiceEnabled: True
 
