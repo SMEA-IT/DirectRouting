@@ -5,7 +5,7 @@ if (Get-Module -ListAvailable -Name MicrosoftTeams)
 }
 else
 { 
-    Install-Module -Name MicrosoftTeams -AllowClobber -RequiredVersion 3.0.0
+    Install-Module -Name MicrosoftTeams -AllowClobber -RequiredVersion 4.2.0
     Import-Module MicrosoftTeams
 
 }
