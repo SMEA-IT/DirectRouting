@@ -30,7 +30,7 @@ try
 {
     # Benutzer aktivieren und verwalten
     foreach ($teamsuser in $teamscsvcontent) {
-    Set-CsUser -Identity $teamsuser.mail -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI $teamsuser.phone
+    Set-CsUser -Identity $teamsuser.mail -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -LineURI $teamsuser.phone
     Write-Host -ForegroundColor Green $teamsuser.mail " Enterprise Voice Enabled und Telefonnummer zugewiesen"
     }
 }
