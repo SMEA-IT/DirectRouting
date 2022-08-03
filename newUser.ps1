@@ -21,7 +21,7 @@ $teamscsvcontent = Import-Csv -path $pfadzurCSV -Delimiter ";"
 
 # Benutzer aktivieren und verwalten
 foreach ($teamsuser in $teamscsvcontent) {
-    Set-CsPhoneNumberAssignment -Identity $teamsuser.mail -PhoneNumber $teamsuser.phone
+    Set-CsPhoneNumberAssignment -Identity $teamsuser.mail -PhoneNumber $teamsuser.phone -PhoneNumberType DirectRouting
     Set-CsPhoneNumberAssignment -Identity $teamsuser.mail -EnterpriseVoiceEnabled $true
     Write-Host -ForegroundColor Green $teamsuser.mail " Enterprise Voice Enabled und Telefonnummer zugewiesen"
 }
