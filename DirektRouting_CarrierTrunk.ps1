@@ -67,4 +67,4 @@ catch
 {
     Write-Host -ForegroundColor Red $_.Exception
 }
-Remove-PSSession $session
+
