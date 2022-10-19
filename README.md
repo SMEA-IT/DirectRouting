@@ -1,12 +1,12 @@
 # DirectRouting
 Anleitung zu Einrichten von Direct Routing in Teams
-1.	Was wird benötigt
+# 1.	Was wird benötigt
 •	Jeder Nutzer benötigt eine Teamslizenz und eine Phonesystem Lizenz
 •	Kurzfristig eine Skype For Business Online P1 Lizenz für die Domainaktivierung
 •	Powershellkenntnisse und Zugriff als Administrator
 •	Zugriff als Tenantadministrator
 
-2.	Vorbereitung
+# 2.	Vorbereitung
 
 -	O365/M365 Nutzern die PhoneSystem / Business Voice Lizenz zuweisen
 
@@ -108,7 +108,7 @@ o	Für den zweiten Nutzer wiederholen Sie Bitte die Schritte
 
 •	
 
-3.	Einrichtung mit Hilfe der Powershell
+# 3.	Einrichtung mit Hilfe der Powershell
 •	Powershell ISE als Administrator öffnen
 
 •	Öffnen Sie die Powershell Script Datei (.ps1) aus der vorab heruntergeladenen entpackten ZIP Datei 
