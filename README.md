@@ -75,7 +75,7 @@ Einrichtung erfolgt für jede Domäne einzeln
 
 •	Nach erfolgreicher Überprüfung klicken Sie auf Weiter und entfernen Sie den Haken bei „Exchange und Exchange Online Protection“ und klicken Sie auf Weiter
 
-•	Beide Domänen sollten den Status „Fehlerfrei“ haben
+•	Beide Domänen sollten den Status „keine Dienste ausgewählt“ haben
 
 •	Die Domäneneinrichtung ist hiermit beendet
 
