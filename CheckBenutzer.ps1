@@ -12,4 +12,4 @@ else
 # Sitzung erstellen und verbinden
 $session = Connect-MicrosoftTeams
 
-Get-CsOnlineUser | Select-Object SipAddress, LineURI, InterpretedUserType, EnterpriseVoiceEnabled
+Get-CsOnlineUser | Select-Object SipAddress, LineURI, EnterpriseVoiceEnabled
