@@ -1,8 +1,8 @@
 # Parameter
 #$pstnusageDE =  "DE national"
 $pstnusageInternational = "International"
-$voicerouteidentity1 = "SBC1 - Gamma"
-$voicerouteidentity2 = "SBC2 - Gamma"
+$voicerouteidentity1 = "SBC1"
+$voicerouteidentity2 = "SBC2"
 #$numberpatternDE = "^(\+49\d*)"
 $numberpatternInternational = "^(\+\d*)"
 $voiceroutingpolicyname = "World"
@@ -17,7 +17,7 @@ if (Get-Module -ListAvailable -Name MicrosoftTeams)
 }
 else
 { 
-    Install-Module -Name MicrosoftTeams -AllowClobber -RequiredVersion 4.7.0
+    Install-Module -Name MicrosoftTeams -AllowClobber -RequiredVersion 4.8.0
     Import-Module MicrosoftTeams
 
 }
