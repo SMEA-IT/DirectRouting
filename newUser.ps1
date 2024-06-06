@@ -14,7 +14,7 @@ else
 
 }
 # Sitzung erstellen und verbinden
-$session = Connect-MicrosoftTeams
+Connect-MicrosoftTeams
 
 # CSV Datei einlesen
 $teamscsvcontent = Import-Csv -path $pfadzurCSV -Delimiter ";"
@@ -31,4 +31,5 @@ foreach ($user in $teamscsvcontent) {
     Grant-CsDialOutPolicy -Identity $user.mail -PolicyName "Tag:DialoutCPCandPSTNInternational"
     Write-Host -ForegroundColor Green $user.mail " RoutingPolicy zugewiesen"
 }
-Remove-PSSession $session
+
+disconnect-MicrosoftTeams
