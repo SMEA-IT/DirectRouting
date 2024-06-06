@@ -22,7 +22,7 @@ else
 
 }
 # Sitzung erstellen und verbinden
-$session = Connect-MicrosoftTeams
+Connect-MicrosoftTeams
 
 # CSV Datei einlesen
 $teamscsvcontent = Import-Csv -path $pfadzurCSV -Delimiter ";"
@@ -68,3 +68,4 @@ catch
     Write-Host -ForegroundColor Red $_.Exception
 }
 
+disconnect-MicrosoftTeams
