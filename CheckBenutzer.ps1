@@ -10,6 +10,6 @@ else
 
 }
 # Sitzung erstellen und verbinden
-$session = Connect-MicrosoftTeams
+Connect-MicrosoftTeams
 
 Get-CsOnlineUser | Select-Object SipAddress, LineURI, EnterpriseVoiceEnabled
