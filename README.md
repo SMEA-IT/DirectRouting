@@ -3,9 +3,9 @@
 ## Was Sie dazu benötigen
 
 - Die Dateien von diesem Repository
-- Zugriff als Tenant-Administrator zum Microsoft365 Tenant
+- Zugriff als Tenant-Administrator zu Ihrem Microsoft 365 Tenant
 - PowerShell Kenntnisse
-- Den Namen Ihrer .onmicrosoft-Domäne
+- Den Namen Ihrer .onmicrosoft.com - Domäne
 
 - Für jeden Nutzer, der mit Teams ins öffentliche Netz telefonieren möchte, brauchen Sie die entsprechenden Lizenzen
   bzw. das entsprechende AddOn
