@@ -9,7 +9,7 @@ if (Get-Module -ListAvailable -Name MicrosoftTeams)
 }
 else
 { 
-    Install-Module -Name MicrosoftTeams -AllowClobber -RequiredVersion 4.7.0
+    Install-Module -Name MicrosoftTeams -AllowClobber -force
     Import-Module MicrosoftTeams
 
 }
