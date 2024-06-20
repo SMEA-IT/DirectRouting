@@ -13,3 +13,5 @@ bzw. das entsprechende AddOn zusammen mit einer Lizenz, in der Teams enthalten i
 - das AddOns heißt Microsoft Teams Phone Standard
 •	Für die Registrierung der SBC Domänen im M365 Tenant werden temporär zwei Lizenzen, die den Skype for 
 Business Plan 1 beinhalten, benötigt. Das sind z.B. alle oben aufgeführten Lizenzen.
+
+Eine ausführliche Anleitung zur Einrichtung finden sie im PDF-Dokument.
