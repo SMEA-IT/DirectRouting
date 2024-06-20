@@ -1,6 +1,6 @@
-Einrichten von Direct Routing in Teams
+# Einrichten von Direct Routing in Teams
 
-# Was Sie benötigen
+-- Was Sie benötigen --
 
 •	Die Dateien von diesem Repository
 •	Zugriff als Tenant-Administrator zum Microsoft365 Tenant
